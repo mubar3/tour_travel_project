@@ -1,0 +1,70 @@
+RewriteEngine On
+
+RewriteRule ^home$ index.php [L]
+
+RewriteRule ^statistik$ statistik.php [L]
+
+RewriteRule ^js$ bootgrid.php [L]
+RewriteRule ^jss$ bootgridx.php [L]
+RewriteRule ^jsprint$ bootgrid_print.php [L]
+RewriteRule ^jssprint$ bootgridx_print.php [L]
+
+
+RewriteRule ^create-data-admin$ user_tambah_admin.php [L]
+RewriteRule ^update-data-admin$ user_ubah_admin.php [L]
+RewriteRule ^view-data-admin$ admin_tampil.php [L]
+RewriteRule ^detail-data-admin$ user_rincian_admin.php [L]
+
+RewriteRule ^mwc-percen$ progres_mwc.php [L]
+
+RewriteRule ^create-data$ user_tambah.php [L]
+RewriteRule ^create-data-sementara$ user_tambah_sementara.php [L]
+RewriteRule ^update-data$ user_ubah.php [L]
+RewriteRule ^update-datax$ user_ubahh.php [L]
+RewriteRule ^detail-data$ user_rincian.php [L]
+RewriteRule ^detail-dataa$ user_rinciann.php [L]
+RewriteRule ^view-data$ user_tampil.php [L]
+RewriteRule ^data-verifikasi$ user_tampil_verifikasi.php [L]
+RewriteRule ^view-datax$ user_tampill.php [L]
+RewriteRule ^tag-data$ user_tandai.php [L]
+RewriteRule ^tag-data-sudah$ user_sudah_tandai.php [L]
+RewriteRule ^tag-datax$ user_tandai1.php [L]
+RewriteRule ^print-data$ cetak.php [L]
+RewriteRule ^print-data1$ cetak1.php [L]
+RewriteRule ^upload-data$ user_unggah.php [L]
+
+RewriteRule ^create-user$ user_tambahx.php [L]
+RewriteRule ^update-user$ user_ubahx.php [L]
+RewriteRule ^view-user$ user_tampilx.php [L]
+
+RewriteRule ^view-datacsv$ data_csv.php [L]
+RewriteRule ^update-datacsv$ data_unggahedit.php [L]
+
+RewriteRule ^view-provinsi$ provinsi.php [L]
+RewriteRule ^update-provinsi$ provinsi_ubah.php [L]
+RewriteRule ^view-kabupaten$ kabupaten.php [L]
+RewriteRule ^update-kabupaten$ kabupaten_ubah.php [L]
+RewriteRule ^view-kecamatan$ kecamatan.php [L]
+RewriteRule ^update-kecamatan$ kecamatan_ubah.php [L]
+RewriteRule ^view-kelurahan$ kelurahan.php [L]
+RewriteRule ^update-kelurahan$ kelurahan_ubah.php [L]
+
+RewriteRule ^print-kartanu$ cetak1.php [L]
+RewriteRule ^download-data$ download.php [L]
+RewriteRule ^print-maarif$ cetak1.php [L]
+RewriteRule ^download1$ download_data.php [L]
+RewriteRule ^ttdall$ ttd_all.php [L]
+RewriteRule ^ttd$ ttd_kab.php [L]
+
+RewriteRule ^update-identitas$ identitas_ubah.php [L]
+RewriteRule ^update-blangko$ blangko_ubah.php [L]
+RewriteRule ^update-blangkoo$ blangko_ubahh.php [L]
+RewriteRule ^update-ttd$ tandatangan_ubah.php [L]
+RewriteRule ^update-ttd1$ tandatangan_ubah1.php [L]
+RewriteRule ^update-ttd2$ tandatangan_ubah2.php [L]
+RewriteRule ^profil-users$ users_profil.php [L]
+RewriteRule ^faq$ faq.php [L]
+
+RewriteRule ^logout$ logout.php [L]
+
+Options All -Indexes

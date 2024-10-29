@@ -1,0 +1,11 @@
+RewriteEngine On
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^login$ index.php [L]
+RewriteRule ^data$ user_rincian.php [L]
+RewriteRule ^cek-nik$ cek.php [L]
+RewriteRule ^nik/([0-9]+)$ cek_user/user_view.php?id=$1
+
+Options All -Indexes
