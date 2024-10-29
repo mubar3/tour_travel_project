@@ -190,16 +190,6 @@
               <div class="col-sm-3">
                 <div class="box box-solid box-success">
                   <div class="box-header">
-                    <h3 class="box-title">QRCODE ANGGOTA</h3>
-                  </div><!-- /.box-header -->
-                  <div class="box-body">
-                    <center><img class="img-responsive img-rounded img-thumbnail" alt="Responsive image" src="../assets/img/qrcode/<?php echo "$rr[qrcode]";?>" width="100px" alt="img-responsive"></center>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="box box-solid box-success">
-                  <div class="box-header">
                     <h3 class="box-title">KTP</h3>
                   </div><!-- /.box-header -->
                   <div class="box-body">
