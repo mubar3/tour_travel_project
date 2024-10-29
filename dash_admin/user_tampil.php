@@ -188,6 +188,13 @@ $ranting='';
                   // left JOIN kabupaten ON user.id_kab= kabupaten.id_kab 
                   // left JOIN kecamatan ON user.id_kec= kecamatan.id_kec 
                   // left JOIN provinsi ON user.id_prov= provinsi.id_prov WHERE id_level like '%3%' Order by id DESC LIMIT 2000");
+                  $tampil = mysqli_query($koneksi, "SELECT *,user.id as id  FROM user
+                  left JOIN desa ON user.id_kel= desa.id_desa 
+                  left JOIN kabupaten ON user.id_kab= kabupaten.id_kab 
+                  left JOIN kecamatan ON user.id_kec= kecamatan.id_kec 
+                  left JOIN provinsi ON user.id_prov= provinsi.id_prov 
+                  Order by no_anggota DESC");
+                  
                   if($_SESSION['level']==3){
                     $tampil = mysqli_query($koneksi, "SELECT *,user.id as id  FROM user
                   -- left JOIN kelurahan ON user.id_kel= kelurahan.id_kel

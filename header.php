@@ -8,7 +8,7 @@
 
 
 <?php
-session_start();
+// session_start();
 error_reporting(0);
 include 'assets/config/koneksi.php';
 include "assets/barcode/vendor/autoload.php";
